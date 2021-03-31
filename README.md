@@ -1,14 +1,13 @@
 # Teste individual QA <br>
 ## Por Milene Amâncio Alves Eigenheer <br>
+[LinkedIn](https://www.linkedin.com/in/mileneaae)
 
 
-VOLTAR
+## Descrição do desafio
+### Criar uma aplicação Selenium para teste de preenchimento de formulário no site "http://sampleapp.tricentis.com/101/app.php"
+### Foram elaborados 5 cenários em 5 arquivos de teste, um para cada aba do formulário.
 
-# Descrição do desafio
-## Criar uma aplicação Selenium para teste de preenchimento de formulário no site "http://sampleapp.tricentis.com/101/app.php"
-## Foram elaborados 5 cenários em 5 arquivos de teste, um para cada aba do formulário.
-
-## Caso de teste 1
+### Caso de teste 1
 Preenchimento da aba 1 de vehicle insurance Tricentris
 
 <b>Cenario</b>: Preenchendo aba Enter Vehicle Data
