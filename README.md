@@ -150,4 +150,4 @@ test.bat
 ## Agradecimentos
 :purple_heart: <b>Accenture</b><br>
 :green_heart: <b>Gama, Camila e Bruce</b><br>
-:blue_heart: <b>[Professor Danilo](https://www.github.com/torneseumprogramador) </b><br>
+:blue_heart: <b>[Professor Danilo](https://github.com/Didox) </b><br>
