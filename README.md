@@ -1,98 +1,96 @@
 # Teste individual QA <br>
-## Por Milene Amâncio Alves Eigenheer <br>
-[LinkedIn](https://www.linkedin.com/in/mileneaae)
+# Por Milene Amâncio Alves Eigenheer <br>
+# [LinkedIn](https://www.linkedin.com/in/mileneaae)
 
-
-## Descrição do desafio
-### Criar uma aplicação Selenium para teste de preenchimento de formulário no site "http://sampleapp.tricentis.com/101/app.php"
-### Foram elaborados 5 cenários em 5 arquivos de teste, um para cada aba do formulário.
+# Descrição do desafio<br>
+### Criar uma aplicação Selenium para teste do site "http://sampleapp.tricentis.com/101/app.php". Foram elaborados 5 cenários em 5 arquivos de teste.<br>
 
 ### Caso de teste 1
-Preenchimento da aba 1 de vehicle insurance Tricentris
+Preenchimento da aba 1 de vehicle insurance Tricentris<br>
+<br>
+<b>Cenario</b>: Preenchendo aba Enter Vehicle Data<br>
+Dado que estou no site "http://sampleapp.tricentis.com/101/app.php"<br>
+E seleciono em Make "Honda"<br>
+E seleciono em Model "Scooter"<br>
+E digito em Cylinder Capacity "125"<br>
+E digito em Engine Performance "20"<br>
+E escolho em Date of Manufacture "01/01/2018"<br>
+E digito em Number of Seats "1"<br>
+E escolho em Right Hand Drive "Yes"<br>
+E seleciono em Number of Seats "1"<br>
+E seleciono em Fuel Type "Gas"<br>
+E digito em Payload "150"<br>
+E digito em Total Weight "300"<br>
+E digito em List Price "1000"<br>
+E digito em License Plate Number "ABC123"<br>
+E digito em Annual Mileage "3000"<br>
+Entao clico em Next para a aba2<br>
 
-<b>Cenario</b>: Preenchendo aba Enter Vehicle Data
-Dado que estou no site "http://sampleapp.tricentis.com/101/app.php"
-E seleciono em Make "Honda"
-E seleciono em Model "Scooter"
-E digito em Cylinder Capacity "125"
-E digito em Engine Performance "20"
-E escolho em Date of Manufacture "01/01/2018"
-E digito em Number of Seats "1"
-E escolho em Right Hand Drive "Yes"
-E seleciono em Number of Seats "1"
-E seleciono em Fuel Type "Gas"
-E digito em Payload "150"
-E digito em Total Weight "300"
-E digito em List Price "1000"
-E digito em License Plate Number "ABC123"
-E digito em Annual Mileage "3000"
-Entao clico em Next para a aba2
+### Caso de teste 2
+Preenchimento da aba 2 de vehicle insurance Tricentris<br>
+<br>
+<b>Cenario</b>: Preenchendo aba Enter Insurant Data<br>
+Dado que continuo no site da Trincentis na aba "Enter Insurant Data"<br>
+E digito em First Name "Milene"<br>
+E digito em Last Name "Eigenheer"<br>
+E escolho em Date of Birth "03/03/1984"<br>
+E escolho em Gender "Female"<br>
+E digito em Street Adress "Rua 8B, 1338"<br>
+E escolho em Contry "Brazil"<br>
+E digito em Zip Code "13506739"<br>
+E digito em City "Rio Claro"<br>
+E seleciono em Occupation "Employee"<br>
+E clico em Hobbies em "Other"<br>
+E informo em Website "www.github.com/mileneaae"<br>
+Entao devo clicar em Next para a aba3<br>
 
-## Caso de teste 2
-Preenchimento da aba 2 de vehicle insurance Tricentris
+### Caso de teste 3
+Preenchimento da aba 3 de vehicle insurance Tricentris<br>
+<br>
+<b>Cenario</b>: Preenchendo aba Enter product Data<br>
+Dado que ainda continuo no site da Trincentis na aba "Enter Product Data"<br>
+E escolho em Start Date "08/31/2021"<br>
+E digito em Insurance Sum "100.000,00"<br>
+E escolho em Merit Rating "Bonus 1"<br>
+E escolho em Damage Insurance "No Coverage"<br>
+E escolho em Optional Products "Euro Protection"<br>
+E seleciono em Courtesy Car "Yes" <br>
+Entao devo clicar em Next para a aba4<br>
 
-<b>Cenario</b>: Preenchendo aba Enter Insurant Data
-Dado que continuo no site da Trincentis na aba "Enter Insurant Data"
-E digito em First Name "Milene"
-E digito em Last Name "Eigenheer"
-E escolho em Date of Birth "03/03/1984"
-E escolho em Gender "Female"
-E digito em Street Adress "Rua 8B, 1338"
-E escolho em Contry "Brazil"
-E digito em Zip Code "13506739"
-E digito em City "Rio Claro"
-E seleciono em Occupation "Employee"
-E clico em Hobbies em "Other"
-E informo em Website "www.github.com/mileneaae"
-Entao devo clicar em Next para a aba3
+### Caso de teste 4
+Preenchimento da aba 4 de vehicle insurance Tricentris<br>
+<br>
+<b>Cenario</b>: Preenchendo aba Select price option<br>
+Dado que permaneco no site da Trincentis na aba "Select Price Option"<br>
+E escolho em Select option Plano Gold<br>
+Entao devo clicar em Next para a aba5<br>
 
-## Caso de teste 3
-Preenchimento da aba 3 de vehicle insurance Tricentris
+### Caso de teste 5
+Preenchimento da aba 4 de vehicle insurance Tricentris<br>
+<br>
+<b>Cenario</b>: Preenchendo aba Send Quota<br>
+Dado que eu ainda permaneco no site da Trincentis na aba "Send Quota"<br>
+E digito em E-mail "mileneaae@gmail.com"<br>
+E digito em Phone "+5519983068961"<br>
+E digito em Username "mileneaae"<br>
+E digito em Password "milene123"<br>
+E digito em Confirm Password "milene123"<br>
+E escrevo em Comments "Favor entrar em contato pelo email"<br>
+E clico em Send<br>
+Entao devo visualizar "Sending e-mail success!"<br>
 
-<b>Cenario</b>: Preenchendo aba Enter product Data
-Dado que ainda continuo no site da Trincentis na aba "Enter Product Data"
-E escolho em Start Date "08/31/2021"
-E digito em Insurance Sum "100.000,00"
-E escolho em Merit Rating "Bonus 1"
-E escolho em Damage Insurance "No Coverage"
-E escolho em Optional Products "Euro Protection"
-E seleciono em Courtesy Car "Yes" 
-Entao devo clicar em Next para a aba4
-
-## Caso de teste 4
-Preenchimento da aba 4 de vehicle insurance Tricentris
-
-<b>Cenario</b>: Preenchendo aba Select price option
-Dado que permaneco no site da Trincentis na aba "Select Price Option"
-E escolho em Select option Plano Gold
-Entao devo clicar em Next para a aba5
-
-## Caso de teste 5
-Preenchimento da aba 4 de vehicle insurance Tricentris
-
-<b>Cenario</b>: Preenchendo aba Send Quota
-Dado que eu ainda permaneco no site da Trincentis na aba "Send Quota"
-E digito em E-mail "mileneaae@gmail.com"
-E digito em Phone "+5519983068961"
-E digito em Username "mileneaae"
-E digito em Password "milene123"
-E digito em Confirm Password "milene123"
-E escrevo em Comments "Favor entrar em contato pelo email"
-E clico em Send
-Entao devo visualizar "Sending e-mail success!"
-
-----------------------
+-------------------------
 # Tecnologias utilizadas
-- [x] Java
-Linguagem de programação utilizada para o desenvolvimento da aplicação.
+:heavy_check_mark: <b>Java</b><br>
+Linguagem de programação utilizada para o desenvolvimento da aplicação.<br>
 
-- [x] Maven
-Gerenciador de dependências para o Java.
+:heavy_check_mark: <b>Maven</b><br>
+Gerenciador de dependências para o Java.<br>
 
-- [x] Cucumber
-Framework que traduz a linguagem humana dos cenários em códigos Java.
+:heavy_check_mark: <b>Cucumber</b><br>
+Framework que traduz a linguagem humana dos cenários em códigos Java.<br>
 
-- [x] Selenium
-Framework que integra o código Java com a linguagem Gherkin (Cucumber), abrindo um browser e realizando testes de comportamento.
+:heavy_check_mark: <b>Selenium</b><br>
+Framework que integra o código Java com a linguagem Gherkin (Cucumber), abrindo um browser e realizando testes de comportamento.<br>
 
 -------------------------
