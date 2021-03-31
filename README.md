@@ -1,11 +1,10 @@
 # Teste individual QA <br>
 # Por Milene Amâncio Alves Eigenheer <br>
-# [LinkedIn](https://www.linkedin.com/in/mileneaae)
+### [LinkedIn](https://www.linkedin.com/in/mileneaae)
 
 # Descrição do desafio<br>
-### Criar uma aplicação Selenium para teste do site "http://sampleapp.tricentis.com/101/app.php". 
-### Foram elaborados 5 cenários em 5 arquivos de teste.<br>
-
+Criar uma aplicação Selenium para teste do site "http://sampleapp.tricentis.com/101/app.php". Foram elaborados 5 cenários em 5 arquivos de teste.<br>
+<br>
 ### - Caso de teste 1
 Preenchimento da aba 1 de vehicle insurance Tricentris<br>
 <br>
@@ -36,9 +35,9 @@ E digito em First Name "Milene"<br>
 E digito em Last Name "Eigenheer"<br>
 E escolho em Date of Birth "03/03/1984"<br>
 E escolho em Gender "Female"<br>
-E digito em Street Adress "Rua 8B, 1338"<br>
+E digito em Street Adress "Rua Feliz, 111"<br>
 E escolho em Contry "Brazil"<br>
-E digito em Zip Code "13506739"<br>
+E digito em Zip Code "13506000"<br>
 E digito em City "Rio Claro"<br>
 E seleciono em Occupation "Employee"<br>
 E clico em Hobbies em "Other"<br>
@@ -72,7 +71,7 @@ Preenchimento da aba 4 de vehicle insurance Tricentris<br>
 <b>Cenario</b>: Preenchendo aba Send Quota<br>
 Dado que eu ainda permaneco no site da Trincentis na aba "Send Quota"<br>
 E digito em E-mail "mileneaae@gmail.com"<br>
-E digito em Phone "+5519983068961"<br>
+E digito em Phone "+5519999999999"<br>
 E digito em Username "mileneaae"<br>
 E digito em Password "milene123"<br>
 E digito em Confirm Password "milene123"<br>
