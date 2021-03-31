@@ -80,7 +80,7 @@ E clico em Send<br>
 Entao devo visualizar "Sending e-mail success!"<br>
 
 -------------------------
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 :heavy_check_mark: <b>Java</b><br>
 Linguagem de programação utilizada para o desenvolvimento da aplicação.<br>
 
@@ -96,7 +96,7 @@ Framework que integra o código Java com a linguagem Gherkin (Cucumber), abrindo
 -------------------------
 
 ## Como rodar a aplicação
-### Pré-requisitos<br>
+## Pré-requisitos<br>
 <ul>
 <li>Instalar o Java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR</li>
 <li>Instalar jdk: https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html</li>
