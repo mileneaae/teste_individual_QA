@@ -1,5 +1,5 @@
 #language: pt
-Funcionalidade: preenchimento do formulário 1 de vehicle insurance Tricentris
+Funcionalidade: preenchimento da aba 1 de vehicle insurance Tricentris
     Este teste visa preencher diversos campos em um formulário com 5 abas diferentes
 
 Cenario: Preenchendo aba Enter Vehicle Data
@@ -18,4 +18,4 @@ Cenario: Preenchendo aba Enter Vehicle Data
     E digito em List Price "1000"
     E digito em License Plate Number "ABC123"
     E digito em Annual Mileage "3000"
-    Entao clico em Next para a aba 2
+    Entao clico em Next para a aba2
