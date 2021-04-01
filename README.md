@@ -2,7 +2,7 @@
 ### Por [Milene Amâncio Alves Eigenheer](https://www.linkedin.com/in/mileneaae)<br>
 
 ## Descrição do desafio<br>
-Criar uma aplicação Selenium para teste do site "http://sampleapp.tricentis.com/101/app.php". Foram elaborados 5 cenários em 5 arquivos de teste.<br>
+Criar uma aplicação Selenium para teste do site http://sampleapp.tricentis.com/101/app.php. Foram elaborados 5 cenários em 5 arquivos de teste.<br>
 <br>
 ### - Caso de teste 1
 Preenchimento da aba 1 de vehicle insurance Tricentris<br>
