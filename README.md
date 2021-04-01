@@ -95,7 +95,7 @@ Framework que integra o código Java com a linguagem Gherkin (Cucumber), abrindo
 -------------------------
 
 ## Como rodar a aplicação
-## Pré-requisitos<br>
+### Pré-requisitos<br>
 <ul>
 <li>Instalar o Java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR</li>
 <li>Instalar jdk: https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html</li>
@@ -147,6 +147,6 @@ test.bat
 
  ----------------------------------
 ## Agradecimentos
-:purple_heart: <b>Accenture</b><br>
-:green_heart: <b>Gama, Camila e Bruce</b><br>
-:blue_heart: <b>[Professor Danilo](https://github.com/Didox) </b><br>
+:purple_heart: <b>[Accenture](https://accenture.com/br-pt)</b><br>
+:green_heart: <b>[Gama Academy](https://gama.academy), Camila Cardoso de Souza e Bruce</b><br>
+:blue_heart: <b>[Professor Danilo Aparecido dos Santos](https://github.com/Didox) </b><br>
