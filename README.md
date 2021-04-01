@@ -100,19 +100,19 @@ Framework que integra o código Java com a linguagem Gherkin (Cucumber), abrindo
 <li>Instalar o Java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR</li>
 <li>Instalar jdk: https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html</li>
 <li>Verificar se o JAVA_HOME está configurado em seu computador</li>
-</ul>
---------------------------------------
-- Clone do projeto:
+</ul><br>
+--------------------------------------<br>
+### - Clone do projeto:
  ```bash
 git clone https://github.com/mileneaae/teste_individual_QA.git
  ```
 
-- Entrando na pasta do projeto
+### - Entrando na pasta do projeto
  ```bash
 cd desafioQA
  ```
 
-- Configurando selenium em seu computador:<br>
+### - Configurando selenium em seu computador:<br>
 Fazer o download do Chrome Webdriver e colocar o arquivo descompactado dentro da pasta driver na raiz do projeto:<br>
 https://chromedriver.chromium.org/downloads<br>
 
@@ -125,22 +125,22 @@ rm -rf chromedriver_win32.zip
 cd ../driver
  ```
 
-- Limpando e validando maven Unix
+### - Limpando e validando maven Unix
  ```bash
 ./mvnw clean
  ```
  
-- Limpando e validando maven Windows
+### - Limpando e validando maven Windows
  ```bash
 mvnw.cmd clean
  ```
 
-- Executando teste no Unix
+### - Executando teste no Unix
  ```bash
 ./test.sh
  ```
 
-- Executando teste no Windows
+### - Executando teste no Windows
  ```bash
 test.bat
  ```
